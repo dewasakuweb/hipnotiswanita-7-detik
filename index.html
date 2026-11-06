@@ -149,11 +149,10 @@ footer{border-top:1px solid var(--rule);padding:30px 0;font-family:var(--mono);f
       <a href="https://example.com/link-cover-ebook" class="image-link" id="coverLink" target="_blank">
         <img src="https://placehold.co/600x850/171334/a78bfa?text=COVER+EBOOK+HIPNOTIS+7+DETIK" alt="Cover Ebook Hipnotis Wanita Dalam 7 Detik" id="coverImg" onerror="this.src='https://placehold.co/600x850/171334/a78bfa?text=Cover+Ebook'">
       </a>
-      <label class="upload-trigger" for="upCover">📷 Upload Cover Ebook<input type="file" id="upCover" accept="image/*"></label>
     </div>
 
     <div class="cta-row">
-      <a class="cta" href="#perjanjian">BELI SEKARANG<small>Akses Instan Ebook & Bonus</small></a>
+      <a class="cta" href="https://digiverse.orderanku.id/japan/bayar" target="_blank" rel="noopener">BELI SEKARANG<small>Akses Instan Ebook & Bonus</small></a>
       <span class="price-hint">Harga Spesial Promo Hari Ini: <b>Rp 99.000</b></span>
     </div>
 
@@ -224,11 +223,10 @@ footer{border-top:1px solid var(--rule);padding:30px 0;font-family:var(--mono);f
       <div class="witness-gallery">
         <div class="witness-item">
           <div class="witness-card">
-            <a href="https://example.com/link-testimoni-1" class="image-link" id="testiLink1" target="_blank">
+            <a href="https://example.com/link-testimoni-1" class="https://cdn.phototourl.com/member/2026-11-06-a66233ab-eed0-4448-81e2-9f6a691cdb1b.jpg" id="testiLink1" target="_blank">
               <img src="https://placehold.co/450x800/171334/a78bfa?text=TESTIMONI+FOTO+1+(9:16)" alt="Testimoni 1" id="testiImg1" onerror="this.src='https://placehold.co/450x800/171334/a78bfa?text=Testimoni+1'">
             </a>
           </div>
-          <label class="upload-trigger" for="upTesti1">📷 Upload Testimoni 1<input type="file" id="upTesti1" accept="image/*"></label>
         </div>
 
         <div class="witness-item">
@@ -237,7 +235,6 @@ footer{border-top:1px solid var(--rule);padding:30px 0;font-family:var(--mono);f
               <img src="https://placehold.co/450x800/171334/a78bfa?text=TESTIMONI+FOTO+2+(9:16)" alt="Testimoni 2" id="testiImg2" onerror="this.src='https://placehold.co/450x800/171334/a78bfa?text=Testimoni+2'">
             </a>
           </div>
-          <label class="upload-trigger" for="upTesti2">📷 Upload Testimoni 2<input type="file" id="upTesti2" accept="image/*"></label>
         </div>
 
         <div class="witness-item">
@@ -246,7 +243,6 @@ footer{border-top:1px solid var(--rule);padding:30px 0;font-family:var(--mono);f
               <img src="https://placehold.co/450x800/171334/a78bfa?text=TESTIMONI+FOTO+3+(9:16)" alt="Testimoni 3" id="testiImg3" onerror="this.src='https://placehold.co/450x800/171334/a78bfa?text=Testimoni+3'">
             </a>
           </div>
-          <label class="upload-trigger" for="upTesti3">📷 Upload Testimoni 3<input type="file" id="upTesti3" accept="image/*"></label>
         </div>
       </div>
     </div>
@@ -272,9 +268,8 @@ footer{border-top:1px solid var(--rule);padding:30px 0;font-family:var(--mono);f
           <div class="amt"><small>Rp</small>99.000</div>
         </div>
 
-        <!-- Form Checkout Langsung di Dalam Border -->
-        <div class="checkout-frame-container">
-          <iframe src="https://digiverse.orderanku.id/japan/bayar" title="Form Checkout Pembayaran"></iframe>
+        <div style="text-align: center; margin-top: 24px;">
+          <a class="cta" href="https://digiverse.orderanku.id/japan/bayar" target="_blank" rel="noopener" style="width: 100%;">BELI SEKARANG<small>Akses Instan Ebook & Bonus</small></a>
         </div>
 
         <p class="pay">Akses Instan · Pembayaran Bank / QRIS / E-Wallet</p>
@@ -315,11 +310,8 @@ function bindImageUploader(inputId, targetImgId) {
   });
 }
 
-// Menghubungkan semua tombol upload langsung dengan gambarnya
+// Menghubungkan tombol upload cover ebook dengan gambarnya
 bindImageUploader('upCover', 'coverImg');
-bindImageUploader('upTesti1', 'testiImg1');
-bindImageUploader('upTesti2', 'testiImg2');
-bindImageUploader('upTesti3', 'testiImg3');
 
 // Penganganan elemen DOM secara aman
 const qLeftEl = document.getElementById("quotaLeft");
